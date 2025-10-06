@@ -6,10 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class DemoRestController {
 
-	@GetMapping(value = "/admin")
-	public String admin() {
-		return "<h3>Welcome Admin :)</h3>";
-	}
+	
 
 	@GetMapping(value = "/user")
 	public String user() {
